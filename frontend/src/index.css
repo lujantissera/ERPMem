@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  /* MEM brand — azul eléctrico + amarillo */
+  --color-accent: #0047FF;
+  --color-accent-dark: #003AD4;
+  --color-accent-light: #E5EDFF;
+  --color-yellow: #F2FF00;
+  --color-yellow-dark: #D4E000;
+
+  --color-dark: #0D0D0D;
+  --color-dark-2: #1A1A1A;
+  --color-dark-3: #2E2E2E;
+  --color-warm-bg: #F7F7F5;
+  --color-warm-bg-2: #EFEFED;
+  --color-warm-border: #E0E0DC;
+  --color-warm-text: #1A1A1A;
+  --color-warm-muted: #6B6B6B;
+
+  --color-success: #1A7A3F;
+  --color-danger: #CC2200;
+  --color-warning: #D48000;
+  --color-info: #0047FF;
+
+  --font-heading: "Barlow Condensed", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #F7F7F5;
+  color: #1A1A1A;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Barlow Condensed", system-ui, sans-serif;
+  font-weight: 700;
+  color: #0D0D0D;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
